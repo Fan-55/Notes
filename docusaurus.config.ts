@@ -80,9 +80,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'notes',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Notes',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
@@ -138,8 +138,8 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.vsDark,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.github,
+      darkTheme: prismThemes.vsDark,
     },
   } satisfies Preset.ThemeConfig,
 };
