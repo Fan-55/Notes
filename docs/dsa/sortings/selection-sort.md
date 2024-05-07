@@ -72,8 +72,11 @@ public class Selection {
 **Performance:**
 The cost model of sorting algorithms is the number of **compares** and **exchanges**. If the algorithms don't use exchanges, we count **array accesses**.
 
-:::tip[Performance]
-**Proposition A:** Selection sort uses $\sim{N^2}/2$ compares and $N$ exchanges to sort an array of length $N$.
+- **Time complexity**: $O(N^2)$
+- **Space complexity**: $O(1)$
+
+:::tip[Hypothesis]
+**Proposition:** Selection sort uses $\sim{N^2}/2$ compares and $N$ exchanges to sort an array of length $N$.
 
 **Proof:** For each $i$ from $0$ to $N-1$, there is $1$ exchange and $N-1-i$ compares, so the totals are $N$ exchanges and $(N-1) + (N-2) + ...+2+1+0 = N(N-1)/2 \sim{N^2/2}$ compares.
 :::
