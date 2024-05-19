@@ -1,0 +1,10 @@
+{
+  "item.label.Notes": {
+    "message": "筆記",
+    "description": "Navbar item with label Notes"
+  },
+  "item.label.Blog": {
+    "message": "文章",
+    "description": "Navbar item with label Blog"
+  }
+}
