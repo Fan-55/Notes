@@ -48,22 +48,34 @@ const sidebars: SidebarsConfig = {
         type: 'generated-index',
         slug: '/dsa'
       },
-      items: [{
-        type: 'category',
-        label: 'Sortings',
-        items: [
-          {
-            type: 'doc',
-            id: 'dsa/sortings/insertion-sort',
-            label: 'Insertion Sort',
-          },
-          {
-            type: 'doc',
-            id: 'dsa/sortings/selection-sort',
-            label: 'Selection Sort',
-          },
-        ],
-      }],
+      items: [
+        {
+          type: 'doc',
+          id: 'dsa/asymptotic-notation',
+          label: 'Asymptotic Notation',
+        },
+        {
+          type: 'category',
+          label: 'Sortings',
+          items: [
+            {
+              type: 'doc',
+              id: 'dsa/sortings/insertion-sort',
+              label: 'Insertion Sort',
+            },
+            {
+              type: 'doc',
+              id: 'dsa/sortings/selection-sort',
+              label: 'Selection Sort',
+            },
+            {
+              type: 'doc',
+              id: 'dsa/sortings/mergesort',
+              label: 'Mergesort',
+            },
+          ],
+        },
+      ],
     }
   ],
 };
