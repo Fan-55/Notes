@@ -75,6 +75,13 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
+        {
+          type: 'doc',
+          id: 'dsa/probability-review',
+          label: 'Probability Review',
+        },
+      ],
+    },
       ],
     }
   ],
