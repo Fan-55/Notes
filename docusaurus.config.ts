@@ -7,19 +7,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: "Fan's Workspace",
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  tagline: 'Welcome to my workspace',
+  favicon: 'img/favicon-32x32.png',
+  url: 'https://Fan-55.github.io',
+  baseUrl: '/Notes',
+  organizationName: 'Fan-55',
+  projectName: 'Notes',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -73,7 +66,7 @@ const config: Config = {
       title: "Fan's Workspace",
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/android-chrome-512x512.png',
       },
       items: [
         {
@@ -82,7 +75,7 @@ const config: Config = {
           position: 'left',
           label: 'Notes',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        // { to: '/blog', label: 'Blog', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',
