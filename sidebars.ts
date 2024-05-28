@@ -87,8 +87,6 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-      ],
-    }
   ],
 };
 
