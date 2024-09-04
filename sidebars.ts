@@ -73,6 +73,11 @@ const sidebars: SidebarsConfig = {
               id: 'dsa/sortings/mergesort',
               label: 'Mergesort',
             },
+            {
+              type: 'doc',
+              id: 'dsa/sortings/quicksort',
+              label: 'Quicksort',
+            }
           ],
         },
         {
