@@ -53,8 +53,7 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'notes',
+          to: '/notes',
           position: 'left',
           label: 'Notes',
         },
@@ -84,6 +83,19 @@ const config: Config = {
       darkTheme: prismThemes.vsDark,
     },
   } satisfies Preset.ThemeConfig,
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'notes',
+        path: 'notes',
+        routeBasePath: 'notes',
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeKatex],
+        sidebarPath: './sidebars.ts',
+      },
+    ],
+  ],
 };
 
 export default config;
