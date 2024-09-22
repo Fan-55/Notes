@@ -8,6 +8,8 @@ The words of a computer’s language are called instructions, and its vocabulary
 
 ## RISC-V Instruction Set
 
+[List of pseudoinstructions](https://github.com/riscv-non-isa/riscv-asm-manual/blob/main/riscv-asm.md#pseudoinstructions)
+
 ### Arithmetic
 
 Each RISC-V **arithmetic instruction** performs only one operation like addition and must always have exactly 3 variables(operands).
@@ -331,6 +333,20 @@ Decision-making instructions are also the building blocks for the loops besides 
         ```       
 
     - **bne:**
+
+### Procedure
+
+Procedure call:
+
+The jump-and-link instruction branches to the address of a procedure and simultaneously saves the address of the following instruction as the **return address** in a register which usually is `x1` in RISC-V.
+
+```
+jal x1, ProcedureAddress
+```
+
+Procedure return:
+
+
 
 ### Instruction format
 
