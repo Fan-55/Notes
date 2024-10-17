@@ -1,0 +1,50 @@
+graph tree2 {
+    rankdir=TB;
+    splines=false;
+    size="4,3"
+
+    node [shape=circle, fixedsize=true, width=0.6];
+
+    T  [color=blue, style=filled, fillcolor=lightblue];
+    S  [color=red, style=filled, fillcolor=lightpink];
+    d1 [style=invis];
+    R;
+    G;
+    d2 [style=invis];
+    P  [color=red, style=filled, fillcolor=lightpink];
+    O;
+    d3 [style=invis];
+    A;
+    E;
+    d4 [style=invis];
+    I;
+    H;
+    d5 [style=invis];
+    G2 [label="G"];
+    
+
+    T -- S;
+    T -- d1 [style=invis];
+    T -- R;
+
+    S -- G;
+    S -- d2 [style=invis];
+    S -- P;
+    
+    R -- O;
+    R -- d3 [style=invis];
+    R -- A;
+
+    G -- E;
+    G -- d4 [style=invis];
+    G -- I;
+    
+    P -- H;
+    P -- d5 [style=invis];
+    P -- G2;
+
+    {rank=same; T;}
+    {rank=same; S; R;}
+    {rank=same; G; P; O; A;}
+    {rank=same; E; I; H; G2;}
+}
