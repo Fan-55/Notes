@@ -55,6 +55,11 @@ const sidebars: SidebarsConfig = {
           label: 'Asymptotic Notation',
         },
         {
+          type: 'doc',
+          id: 'dsa/heap',
+          label: 'The Heap Data Structure',
+        },
+        {
           type: 'category',
           label: 'Sortings',
           items: [
