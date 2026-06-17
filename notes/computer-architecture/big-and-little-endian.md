@@ -6,6 +6,4 @@ Big endian computers use leftmost byte (i.e., most significant byte, MSB) as wor
 
 [This is a video on youtube that explains this pretty well.](https://youtu.be/T1C9Kj_78ek?si=eHstmPmJsFtaZfb_)
 
-![endianess](https://hackmd.io/_uploads/HJA57ohgA.png)
-
-
+![endianness](../../static/img/endianness.png)
