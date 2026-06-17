@@ -32,7 +32,7 @@ In the partition subroutine, the elements less than the pivot are moved to the l
 
 The input array ends up like this after partition subroutine is done:
 
-![partition_result](../../../static/img/partition.jpg)
+![partition_result](../../static/img/partition.jpg)
 
 During the partition subroutine, it keeps the following 3 invariants so that the array is in the form of the diagram below:
 
@@ -43,7 +43,7 @@ During the partition subroutine, it keeps the following 3 invariants so that the
 3. The rest are the elements that haven't been processed.
 
 
-![partition_process](../../../static/img/partition_2.jpg)
+![partition_process](../../static/img/partition_2.jpg)
 
 
 **Input:** 
@@ -238,7 +238,7 @@ For every input array of length $n \ge 1$, the expected number of comparisons be
 
     The value of $\sum\limits_{j=2}^{n}\dfrac{1}{j}$ can be bounded by the integral of $1/x$ from $x=1$ to $x=n$. As the diagram shown, the sum corresponding to the area of the rectangles is bounded by the area under the curve.
     
-    ![img](../../../static/img/integral_plot.png)
+    ![img](../../static/img/integral_plot.png)
 
     $\sum\limits_{j=2}^{n}\dfrac{1}{j} \le \int_{1}^{n}\dfrac{1}{x}\,dx = \ln\,x|_1^n = \ln n - \ln1 = \ln n$
 

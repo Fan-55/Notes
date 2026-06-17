@@ -118,7 +118,7 @@ Four primitive operations are performed for each of the $l$ iterations of the lo
 
 **2. Recursion tree**
 
-![img](../../../static/img/recursion_tree.png)
+![img](../../static/img/recursion_tree.png)
 
 The idea of recursion tree is to write all the work done by a recursive algorithm in a tree structure, with nodes of the tree corresponding to the recursive calls, and the children of a node corresponding to the recursive calls made by that node.
 
