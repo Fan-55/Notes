@@ -1,0 +1,4 @@
+- sliding window
+- two pointers
+- boyer-moore voting algorithm
+- 

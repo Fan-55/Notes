@@ -1,3 +1,6 @@
+https://www.learncs.site/docs/curriculum-resource/cs61c/syllabus
+
+
 # Instruction Set Architecture
 
 Software communicates to hardware via a vocabulary. The words of the vocabulary (all the words that exist in a particular language) are called **instructions**, and the vocabulary itself is called the **instruction set architecture**, or simply **architecture**, of a computer.
